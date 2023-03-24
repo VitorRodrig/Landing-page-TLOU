@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background: url('/images/thelast-pic.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 7vh;
+    background-color: transparent;
+}
+
+.menu-content{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu-content .logo{
+    font-size: 2.2em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-content .menu-items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu-content .menu-items a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.menu-items a:hover{
+    background-color: rgba(26, 85, 26, 0.541);
+    border-radius: 3px;
+}
+
+main{
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+.main-content{
+    margin-left: 100px;
+}
+
+.main-content .btns{
+    margin-left: 100px;
+}
+
+.main-content .primary-text{
+    color: #fff;
+    font-size: 3em;
+    max-width: 600px;
+}
+
+.main-content .secundary-text{
+    margin-top: 10px;
+    color: #ccc;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: #ccc;
+    padding: 30px;
+    margin-top: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
